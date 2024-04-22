@@ -1,0 +1,4 @@
+# ninja log v5
+1	88	7354712155835258	CMakeFiles/DataStructure.dir/main.c.obj	a8416b0d96324c23
+7	91	7354712155870499	CMakeFiles/DataStructure.dir/Stack/Example01_Stack.c.obj	c67139efcda13678
+91	176	7354712156678143	DataStructure.exe	2e79b6934f27cddb
