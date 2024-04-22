@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include "Stack/Example01_Stack.h"
-
+#include "recursive/recusive.h"
 int main() {
-    push(1);
-    push(2);
-    push(3);
+  int result =  factorial(5);
 
-    printf("%d", pop());
+    printf("%d",result);
 }
