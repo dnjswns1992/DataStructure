@@ -61,6 +61,12 @@ build CMakeFiles/DataStructure.dir/Stack/Example01_Stack.c.obj: C_COMPILER__Data
   OBJECT_DIR = CMakeFiles\DataStructure.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructure.dir\Stack
 
+build CMakeFiles/DataStructure.dir/recursive/recusive.c.obj: C_COMPILER__DataStructure_unscanned_Debug C$:/Users/WooHeeSeop/Desktop/CLionRepository/DataStructure/recursive/recusive.c || cmake_object_order_depends_target_DataStructure
+  DEP_FILE = CMakeFiles\DataStructure.dir\recursive\recusive.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure.dir\recursive
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure
@@ -69,7 +75,7 @@ build CMakeFiles/DataStructure.dir/Stack/Example01_Stack.c.obj: C_COMPILER__Data
 #############################################
 # Link the executable DataStructure.exe
 
-build DataStructure.exe: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.obj CMakeFiles/DataStructure.dir/Stack/Example01_Stack.c.obj
+build DataStructure.exe: C_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/DataStructure.dir/main.c.obj CMakeFiles/DataStructure.dir/Stack/Example01_Stack.c.obj CMakeFiles/DataStructure.dir/recursive/recusive.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure.dir
